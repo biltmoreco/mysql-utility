@@ -1,0 +1,5 @@
+name: mysql-utility
+recipe: lamp
+services:
+  myservice:
+    type: phpmyadmin
