@@ -8,7 +8,7 @@ MySQL: `lando mysql`
 
 Import Database: `lando db-import sql-import/somedumpfile.sql.gz`
 
-Export Database: `lando db-export sql-export/somedumpfile.sql.gz`
+Export Database: `lando db-export`
 
 ### DB dump must reside within app directory!
 
