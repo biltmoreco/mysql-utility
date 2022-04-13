@@ -32,7 +32,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 
 # Custom
 #-------------------------
+*.sql
+*.sql.gz
 /sql-import/*
 !/sql-import/.gitkeep
-/sql-export/*
-!/sql-export/.gitkeep
