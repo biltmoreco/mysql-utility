@@ -1,5 +1,10 @@
 name: mysql-utility
 recipe: lamp
 services:
-  myservice:
+  phpmyadmin:
     type: phpmyadmin
+    hosts:
+      - database
+proxy:
+  phpmyadmin:
+    - phpmyadmin.mysql-utility.lndo.site
